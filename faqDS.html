@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Jeux DS</title>
+    <link rel="stylesheet" href="css/styleFAQ.css" type="text/css" /> 
+  <!-- métadonnées -->
+	<meta name="description" content="Site de présentation de jeux DS">
+	<meta name="author" content="BastienPedu">
+	<meta name="keywords" content="Jeux DS, présentation">
+	<meta charset="UTF-8">
+  <!-- Import de scripts des autres Pens (scriptDS et dataDS) -->
+<script src="scripts/scriptDS.js">
+</script>
+<script src="scripts/dataDS.js"></script>
+  
+</head>
+<header>
+  <p>Header non chargé, activez JavaScript</p>
+</header>
+<body>
+	
+ 
+		
+	<div id="corps">
+    <div id="titreCorps">
+      <h1>Foire aux Questions</h1>
+    </div>
+    <div id="contenu">
+		<!-- <div id="contenuGauche"></div> -->
+			<div id="contenuMilieu">
+				</br>
+      <ul>
+        <li>Qu'est-ce que 'Jeux DS'?<br>'Jeux DS' est un projet dont le but est de référencer des informations sur les jeux DS et les consoles de la famille DS (DS, DSi,...)</li>
+        <li>Pourquoi avoir créé 'Jeux DS'?<br>Ayant déjà envie de coder ce site avant, une opportunité de mêler (ré)apprentissage et plaisir s'est présentée : un projet scolaire devant remplir plusieurs conditions (flexbox, JS,...).</li>
+        <li>Comment est "codé" 'Jeux DS'?<br>Jeux DS est codé en HTML, CSS et JavaScript. La partie HTML/CSS est codée en Flexbox. La partie JavaScript s'occupe de charger les entêtes, menu de Navigation et pied de pages (un peu comme les views dans les frameworks). Elle s'occupe aussi de récupérer les données dans un JSON et de les "injecter" dans le code HTML.</li>
+        <li>Où puis-je trouver le code de 'Jeux DS'?<br>Actuellement, quasi la totalité du code est sur codepen.io, et divisé en plusieurs parties :
+          <ul><li><a target="_blank" href="https://codepen.io/bastienPedu/details/NWzyLRa">Page d'accueil</a></li>
+            <li><a target="_blank" href="https://codepen.io/bastienPedu/details/QWxzROL">Page des DS originales</a>
+            <li><a target="_blank" href="https://codepen.io/bastienPedu/details/XWYBxJq">Page des Firmwares de la DSi</a></li>
+            <li><a target="_blank" href="https://codepen.io/bastienPedu/details/VwdEZrO">Page de la FAQ</a></li>
+            <li><a target="_blank" href="https://codepen.io/bastienPedu/details/VwdQGEK">Code JS pour les fonctions qui chargent les menus, entêtes,...</a></li>
+            <li><a target="_blank" href="https://codepen.io/bastienPedu/details/MWXVRvV">Code JS pour 'stocker' le JSON, extraire les données,...</a>
+            </li>
+              
+            </ul>
+            
+          </li>
+      </ul>
+     
+			</div>
+    <!--
+			<div id="contenuDroit">
+			</div>
+     -->
+</div>
+		</div>
+	</div>
+	</br>
+  <footer>
+    © <a href=http://perdu.com>mailquinexistepas@gmail.com</a></br>
+  </footer>
+</body>
+<!-- Appel fonction -->
+<script>loadHeader()</script>
+<script>menuNav();</script>
+<script>loadFooter();</script>
+</html>

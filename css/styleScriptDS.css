@@ -1,0 +1,52 @@
+#navBar{
+  display:flex;
+  /*start center end*/
+  justify-content: space-evenly;
+  background-color:pink;
+  flex-direction:row;
+  align-items:center;
+}
+
+/* code CSS pour le menu déroulant */
+/* Bouton du menu */
+.btnDeroule {
+  background-color: #11111100; /* transparent */
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* divison pour aliner le texte "menu" et l'icone */
+.derouleAlign{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+/* Besoin pour positionner les éléments du "menu" */
+.deroulant {
+  position: relative;
+  display: inline-block;
+}
+
+/* Elements cachés quand ils ne sont pas "hovered" */
+.eleDeroule {
+  display: none;
+  position: absolute;
+  background-color: #11111100; /* transparent */
+  min-width: 160px;
+}
+
+/* Style des liens des éléments */
+.eleDeroule a {
+  padding: 12px 16px;
+  display: block;
+}
+.eleDeroule a:hover {
+  background-color: #11111100; /* transparent */
+}
+
+/* Montre les éléments */
+.deroulant:hover .eleDeroule {display: block;}
+
+.deroulant:hover .btnDeroule {background-color: #11111100; /* transparent */}

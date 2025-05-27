@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Jeux DS</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" /> 
+  <!-- métadonnées -->
+	<meta name="description" content="Site de présentation de jeux DS">
+	<meta name="author" content="BastienPedu">
+	<meta name="keywords" content="Jeux DS, présentation">
+	<meta charset="UTF-8">
+  <!-- Import de scripts des autres Pens (scriptDS et dataDS) -->
+<script src="scripts/scriptDS.js">
+</script>
+<script src="scripts/dataDS.js"></script>
+  
+</head>
+<header>
+  <p>Header non chargé, activez JavaScript</p>
+</header>
+<body>
+	
+ 
+		
+	<div id="corps">
+    <div id="titreCorps">
+      <script>afficherTitre();</script>
+    </div>
+    <div id="contenu">
+		<div id="contenuGauche">
+      <p>Cliquez pour accéder au Test du jeu correspondant sur JeuxVideo.com :</p>
+      <a target="_blank" href="https://www.jeuxvideo.com/jeux/nintendo-ds/00025565-chrono-trigger.htm"><img id="chronoTrigger" src="https://image.jeuxvideo.com/images/ds/c/h/chrono-trigger-nintendo-ds-044.jpg"/></a>
+      <a target="_blank" href="https://www.jeuxvideo.com/articles/0001/00013655-professeur-layton-et-le-destin-perdu-test.htm" />
+      <img src="https://image.jeuxvideo.com/images/ds/p/r/professeur-layton-et-le-destin-perdu-nintendo-ds-105.jpg"/>
+      </a>
+    </div>
+			<div id="contenuMilieu">
+				</br>
+      <!-- Appel des données de la liste de jeux -->
+				<script>afficherDonnees();
+      </script>
+			</div>
+    <!--
+			<div id="contenuDroit">
+				</br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Dictum sit amet justo donec enim diam vulputate ut pharetra.</p>
+			</div>
+     -->
+</div>
+		</div>
+	</div>
+	</br>
+  <footer>
+    © <a href=http://perdu.com>mailquinexistepas@gmail.com</a></br>
+  </footer>
+</body>
+<!-- Appel fonction -->
+<script>loadHeader()</script>
+<script>menuNav();</script>
+<script>loadFooter();</script>
+</html>
