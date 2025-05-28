@@ -1,7 +1,7 @@
 /* Fonction permettant de "charger" un 'header' : du code HTML correspondant au contenu d'une balise 'header'  vient remplacer le contenu de la balise 'header' de la page */
 function loadHeader(){
   var newHeaderContent='<div id="entete_up">'
-  +'<img width=100 src="https://upload.wikimedia.org/wikipedia/commons/8/89/Nintendo-DSi-Bl-Open.png"/>'
+  +'<img width=100 src="images/512px-Nintendo-DSi-Bl-Open.png" />'
   +'<h1>Jeux DS</h1>'
   +'<img width=100 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/DSLite_white_trans.png/1200px-DSLite_white_trans.png"/>'
   +'</div>'
